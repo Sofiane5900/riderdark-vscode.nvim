@@ -20,6 +20,14 @@ return {
         ["@keyword.repeat"] = { fg = "#6c95eb", bold = true },
         ["@keyword.repeat.c_sharp"] = { link = "@keyword.repeat" },
 
+        -- Boolean
+        ["@boolean"] = { fg = "#6c95eb", italic = true },
+        ["@boolean.c_sharp"] = { link = "@boolean" },
+
+        -- Return
+        ["@keyword.return"] = { fg = "#6c95eb" },
+        ["@keyword.return.c_sharp"] = { link = "@keyword.return" },
+
         -- Method
         ["@function.method"] = { fg = "#38c596", bold = true },
         ["@function.method.call"] = { link = "@function.method" },
