@@ -38,6 +38,10 @@ return {
 				["@keyword.conditional"] = { fg = "#6c95eb", italic = false },
 				["@keyword.conditional.c_sharp"] = { link = "@keyword.conditional" },
 
+				-- Operator
+				["@operator"] = { fg = "#65c3cc" },
+				["@operator.c_sharp"] = { link = "@operator" },
+
 				-- Classes
 				["@lsp.type.class.cs"] = { fg = "#c191ff", bold = true },
 
